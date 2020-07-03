@@ -1,0 +1,36 @@
+<!doctype html> 
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Play</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+    
+</head>
+<body>
+    <a href="#" class="BUTTON_GDS"></a>
+    <audio id="aud">
+  <source src="kaam.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+</audio>
+    
+    
+<center>
+    
+<button class="flex mx-auto text-black bg-white-500 border-3 py-2 px-8 focus:outline-none hover:bg-white-600 rounded text-lg" onclick="playAudio()" type="button" >Play</button>
+
+</center>
+    
+    
+<script>
+var x = document.getElementById("aud"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
+</script>
+</body>
+</html>
+
