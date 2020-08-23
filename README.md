@@ -2,4 +2,4 @@
 
 BEWARE!!! 
 ⚠️⚠️⚠️
-https://ajayparihar.github.io/kaambutton/
+https://ajayparihar.github.io/kaambutton
